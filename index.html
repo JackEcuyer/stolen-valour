@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="typing.css" rel="stylesheet" type="text/css"/>
+  <script src="typing-effect.js"></script>
+  <script src="rooms.js"></script>
+  <script src="objects.js"></script>
+  <script src="commands.js"></script>
+  <script src="help page.js"></script>
+  <script src="events.js"></script>
+	<script src="main.js"></script>
+</head>
+
+<body onload="initGame()">
+	<div id='gridBox'>
+    <div id="stats-box">
+      <img src='stolen-valour-logo.png' id='logo'>
+      <div id="movecount-box"></div>
+      <div id="score-box">Score:</div>
+      <div id="help-tip">Click <a id="help-button" onclick="helpMenu()">here</a> to see a list of basic commands.</div>
+      <div id="restart-box"><a id="restart-button" onclick="playerDeath()">Restart</a></div>
+    </div>
+		<div id='textbox' class="css-typing"> </div>
+		<div id='cli' contenteditable="true" onkeyup="checkInput(event)"></div>
+	</div>
+</body>
+
+</html>

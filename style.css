@@ -1,0 +1,104 @@
+#gridBox{
+ display: grid;
+ height:700px;
+ border:2px solid rgba(11, 190, 221, 0.822);
+ grid-template-rows: 10% auto 10%;
+ font-family: "Courier New", serif;
+ background-color: rgba(26, 26, 26, 0.9)
+}
+#textbox {
+ padding-top: 10px;
+ margin-top: 0px;
+ font-size: 20px;
+ overflow-y: scroll;
+ background-color:inherit;
+ border: 0px;
+ color: lightgreen;
+ padding: 20px;
+ font-family: inherit;
+ border-top: 2px solid rgba(11, 190, 221, 0.822);
+}
+#cli {
+ border: inherit;
+ border-width: 0px;
+ border-top-width: 2px;
+ border-color: inherit;
+ color: lightgreen;
+ font-family: inherit;
+ background-color: inherit;
+ padding: 20px;
+ font-size: 20px;
+}
+
+#stats-box {
+ height: 100%;
+ width: 100%;
+ color: lightgreen;
+ border: 0px;
+ margin: 0px;
+ padding: 0px;
+ border-bottom: 2px solid rgb(11, 190, 221);
+ background-color: inherit;
+}
+
+#movecount-box {
+  color: inherit;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 50px;
+  padding-top: 20px;
+  width: auto;
+  height: 100%;
+  float: left;
+  box-sizing:border-box;
+}
+
+#score-box {
+  width: auto;
+  height: 100%;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-size: 20px;
+  float: left;
+  box-sizing:border-box
+}
+
+#logo {
+  width: 180px;
+  height: 180/6px;
+  float: left;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#help-tip {
+  float:left;
+  padding-left: 60px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#help-button {
+  color: gold;
+}
+
+#help-button:hover{
+  text-decoration: underline;
+  font-size: 21px;
+}
+
+#restart-box {
+  color: rgb(255, 66, 66);
+  font-size:  20px;
+  padding-left: 60px;
+  padding-top: 20px;
+  float:left;
+}
+
+#restart-button:hover {
+  text-decoration: underline;
+  font-size:21px;
+}
